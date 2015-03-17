@@ -28,10 +28,10 @@ The main components of EAP, as shown in Figure 1, are the following:
 
 --EAP authenticator: An access point (AP) or network access server (NAS) requiring EAP authentication before granting access to a network resource.
 
---Authentication server: A server computer that negotiates the use of a specific EAP method with an EAP Access Client. It also validates EAP peers’ credentials and authorizes access to network resources. In Figure 1, the authentication server is a Remote Authentication Dial-In User Service (RADIUS) server. [3] Notice from Figure 1 that the EAP peer and, in the case of wireless LANs, the EAP authenticator both send EAP messages using a supplicant and a data link layer transport protocol such as PPP—or, for wireless LANs, the IEEE 802.1X infrastructure. A supplicant is a software component that uses EAP to authenticate network access but that handles the actual data exchange [3]. In the example shown in Figure 1, both the EAP authenticator and the authentication server send EAP messages using
+--Authentication server: A server computer that negotiates the use of a specific EAP method with an EAP Access Client. It also validates EAP peers’ credentials and authorizes access to network resources. In Figure 1, the authentication server is a Remote Authentication Dial-In User Service (RADIUS) server. Notice from Figure 1 that the EAP peer and, in the case of wireless LANs, the EAP authenticator both send EAP messages using a supplicant and a data link layer transport protocol such as PPP—or, for wireless LANs, the IEEE 802.1X infrastructure. A supplicant is a software component that uses EAP to authenticate network access but that handles the actual data exchange. In the example shown in Figure 1, both the EAP authenticator and the authentication server send EAP messages using
 RADIUS. 
 
-As a result, EAP messages are actually exchanged between the EAP components on the EAP client and the authentication server. In a word, EAP provides the highest flexibility because it allows vendors to create more secure authentication schemes that can be plugged in later on, as required[xc].
+As a result, EAP messages are actually exchanged between the EAP components on the EAP client and the authentication server. In a word, EAP provides the highest flexibility because it allows vendors to create more secure authentication schemes that can be plugged in later on, as required.
 
 \section{The EAP protocol family}
 
