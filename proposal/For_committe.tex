@@ -23,14 +23,16 @@ tower can support only a limited number of 3G/4G connection at a given time. Thi
 \label{sec:Section 1}
 The list of project deliverables includes the following
 \begin{itemize}
- \item Library supports a set of preconditions and postconditions that are specified in Java annotations
- \item Incorporates contract checking for objects of subclasses
- \item Support for writing contracts in scripting languages
- \item Support contracts for lambdas in Java 8
+ \item Detailed procedure for carrying out the attack
+ \item wap-supplicant code with changes to showing high probability of the attack
+ \item Server-side code with the defence of the attack
+ \item Testcases and results showing improved protocol
 \end{itemize}
 \section{Challenging aspects of Project}
 \label{sec:Section 2}
-The main challenge involved is implementing an attack with a high success rate. The attack on EAP-SIM requires understanding the protocol and open source implementation of the same. There are various open source implementations of the EAP protocol which vary significantly. Following the attack implementation a major challenge would be drive a basic defence for the attack. Driving the defence requires a understanding both the client and server side implementation of the protocol.
+The main challenge involved is implementing an attack with a high success rate. The attack on EAP-SIM requires understanding the protocol and open source implementation of the same. Driving the defence requires a understanding both the client and server side implementation of the protocol. There are various open source implementations of the EAP protocol which vary significantly. Hence the attack implementation is a major challenge. 
+
+Following the implementation find a suitable defence to the attack trying out the defence in the opensource is the next milestone for the project. Building a defence requires a through understanding of the protocol and the open source tool. Once a defence is ready ensuring that the defence does not significantly hurt the performance on the protocol remains a issue.
 
 \section{Schedule}
 \label{sec:Section 3}
@@ -41,39 +43,37 @@ The main challenge involved is implementing an attack with a high success rate. 
 \hline \hline   
 \\               
 %\hline               
-Week 1: May 4th - May 8th  & Understand the EAP­SIM protocol\\
+Week 1: May 4th - May 8th  & Understand the EAP­SIM protocol \\
 \\
-Week 2-3: May 11th - May 22nd  & Try to set up a basic freeradius setup for EAP SIM\\
+Week 2-3: May 11th - May 22nd  & Try to set up a basic freeradius setup for EAP SIM \\
 \\
 Week 4: May 25th - May 29th & Configure router for EAP­SIM to work with WiFi and free radius \\
 \\
-Week 5: June 1st - June 5th  & Configure mobile device to work with EAP­SIM \\
+Week 5: June 1st - June 5th  & Configure opensource tool to run with EAP-SIM \\
 \\
-Week 6-7: June 8th - June 19th  & ­ Buffer to get the SETUP ready\\
+Week 6-7: June 8th - June 19th  & ­ Prepare for EAP-SIM DoS attack setup \\
 \\
-Week 8-9: June 22nd - July 3rd & Understand the flaws in EAP SIM and work on the improvements \\
+Week 8-9: June 22nd - July 3rd & Try out the EAP-SIM attack \\
 \\
-Week 10-11: July 6th - July 17th  & Write the code to improvements in EAP­SIM\\ 
+Week 10-11: July 6th - July 17th  & Find possible improvements/changes in protocol to avoid the attack \\ 
 \\
-Week 12-13: July 20th - July 31st & Work on code for EAP SIM \\
+Week 12-13: July 20th - July 31st & Find code point to try out the improvement \\
 \\
-Week 14-15: Aug 1st - Aug 15th  & Test out the improvements\\
+Week 14-15: Aug 1st - Aug 15th  & Code the improvements in Hostapd \\
 \\
-Week 16-17: Aug 17th - Aug 28th & Research on scripting languages to implement as conditions \\
+Week 16-17: Aug 17th - Aug 28th & Code the improvements in wpasuplicant \\
 \\
-Week 18-19: Sept 1st - Sept 11th  & Implement contract conditions using Jython\\
+Week 18-19: Sept 1st - Sept 11th  &  Write test cases to test performance \\
 \\
-Week 20-21: Sept 14th - Sept 25th  & Implement contract conditions using Javascript\\
+Week 20-21: Sept 14th - Sept 25th  & Carry out test to show performance of improvements \\ 
 \\
-Week 22-23: Sept 28th - Oct 9th & Implement contracts for lambdas in Java 8\\
+Week 22-23: Sept 28th - Oct 19th &  Study other possible attacks on EAP \\
 \\
-Week 24: Oct 12th - Oct 16th  & Implement contract conditions using Ruby\\
+Week 25: Oct 19th - Oct 23rd & Study other possible improvements on EAP \\
 \\
-Week 25: Oct 19th - Oct 23rd & Write test cases for the library\\
+Week 26-27: Oct 26th - Nov 6th & Write report \\
 \\
-Week 26-27: Oct 26th - Nov 6th & Write report\\
-\\
-Week 28-29: Nov 9th - Nov 20th  & Prepare for defense\\
+Week 28-29: Nov 9th - Nov 20th  & Prepare for defence \\
 \hline
 \end{tabular}
 \label{table:nonlin}
