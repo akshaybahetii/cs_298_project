@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{meyer1992applying}
+Bertrand Meyer.
+\newblock Applying design by contract.
+\newblock {\em Computer}, 25(10):40--51, 1992.
+
+\bibitem{meyer1992eiffel}
+Bertrand Meyer.
+\newblock {\em Eiffel: the language}.
+\newblock Prentice-Hall, Inc., 1992.
+
+\bibitem{mitchell2001design}
+Richard Mitchell, Jim McKim, and Bertrand Meyer.
+\newblock {\em Design by contract, by example}.
+\newblock Addison Wesley Longman Publishing Co., Inc., 2001.
+
+\bibitem{payne1998implementing}
+Jeffrey~E Payne, Michael~A Schatz, and Matthew~N Schmid.
+\newblock Implementing assertions for java.
+\newblock {\em Dr. Dobb's Journal}, 23(1):40--44, 1998.
+
+\bibitem{wiener1995software}
+Richard~S Wiener.
+\newblock {\em Software development using Eiffel}.
+\newblock Prentice-Hall, 1995.
+
+\end{thebibliography}
