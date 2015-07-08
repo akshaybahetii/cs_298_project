@@ -1,3 +1,22 @@
 \begin{thebibliography}{1}
+J. Arkko and H. Haverinen. Extensible Authentication Pro-
+tocol Method for 3rd Generation Authentication and Key
+Agreement (EAP-AKA). RFC 4187, Jan. 2006.
+
+P. Funk and S. Blake-Wilson. Extensible Authentication Pro-
+tocol Tunneled Transport Layer Security Authenticated Pro-
+tocol Version 0 (EAP-TTLSv0). RFC 5281, Aug. 2008.
+
+WPA Supplicant. http://hostap.epitest.fi/wpa_
+supplicant/
+
+IEEE Standard for Wireless LAN Medium Access Control
+(MAC) and Physical Layer (PHY) Specifications, 1999.
+
+The Network Simulator - ns-2. http://www.isi.edu/
+nsnam/ns/
+
+T. Dierks and E. Rescorla. The Transport Layer Security
+(TLS) Protocol Version 1.1. RFC 4346, Apr. 2006.
 
 \end{thebibliography}
